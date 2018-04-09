@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107030567-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)};
+        gtag('js', new Date());
+        gtag('config', 'UA-107030567-1');
+    </script>
+
+    <title>Dark Souls Boss Tracker</title>
+
+    <meta name="description" content="Tracker for Dark Souls 1 bosses. Designed for commentators of races.">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <div class="container" style="min-height: 95%; padding-bottom: 30px;">
+        <div class="col-md-12 col-xs-12">
+            <h1 class="text-center">Dark Souls Boss Tracker</h1>
+
+            <span>Number of participants: <input type="number" id="txtNumberOfParticipants" value="2" /></span> 
+            <input type="button" id="btnCreate" onclick="CreateNew();" value="Create" class="btn btn-primary" />
+
+        </div>    
+        <div id="divPlaceholder" class="col-md-12">
+
+        </div>
+    </div>
+
+</body>
+</html>

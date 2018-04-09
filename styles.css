@@ -1,0 +1,57 @@
+﻿@font-face { font-family: OptimusPrinceps; src: url('OptimusPrinceps.ttf'); } 
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #1d1d1d;
+    color: white;
+}
+
+input {
+    color: black;
+}
+
+.container {
+    background: #414141;
+}
+
+h1 {
+    font-family: OptimusPrinceps;
+}
+
+.form-control {
+     max-width: 500px;
+}
+
+textarea {
+    color: black;
+}
+
+label {
+    font-weight: normal;
+}
+
+.boss-checkbox {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.boss-checkbox label {
+    padding-right: 15px;
+}
+
+.boss-list {
+    margin-bottom: 25px;
+}
+
+.boss-list h3 {
+    border-bottom: 1px solid white;
+}
+
+.section-label {
+    border-bottom: 1px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
